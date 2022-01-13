@@ -2,8 +2,8 @@
 
 ## Prequisities
 - We want speed, stability and size compared to the built in micro-SD card, therefore we add an SSD drive to the RPI configuration.
-- We need first a suitable SSD drive, choose one that can carry load and lots of updates. I chose: Samsung 870 EVO 500GB (MZ-77E500B/EU).
-- We also need a RPI compatible SATA to USB cable, see [Compatible cables here](https://jamesachambers.com/raspberry-pi-4-usb-boot-config-guide-for-ssd-flash-drives/), I chose: StarTech USB 3.0 to 2.5" SATA HDD/SDD Cable w/UASP (USB3S2SAT3CB).
+  - We need first a suitable SSD drive, choose one that can carry load and lots of updates. I chose: Samsung 870 EVO 500GB (MZ-77E500B/EU).
+  - We also need a RPI compatible SATA to USB cable, see [Compatible cables here](https://jamesachambers.com/raspberry-pi-4-usb-boot-config-guide-for-ssd-flash-drives/), I chose: StarTech USB 3.0 to 2.5" SATA HDD/SDD Cable w/UASP (USB3S2SAT3CB).
 - Install first according to the [RPI installation notes](https://github.com/slittorin/raspberrypi-install).
   - The installation enables boot from SSD.
 - Add the SSD Disk with the cable RPI, to a USB 3 port (blue).
