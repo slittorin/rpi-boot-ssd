@@ -1,12 +1,12 @@
 # Raspberry PI - Boot from SSD
 
 ## Prequisities
-- We want speed, stability and size compared to the built in micro-SD card, therefore we add an SSD drive to the RPI configuration.
-  - We need first a suitable SSD drive, choose one that can carry load and lots of updates. I chose: Samsung 870 EVO 500GB (MZ-77E500B/EU).
+- We want speed, stability and size compared to the built in micro-SD card, therefore we add an SSD disk to the RPI configuration.
+  - We need first a suitable SSD disk, choose one that can carry load and lots of updates. I chose: Samsung 870 EVO 500GB (MZ-77E500B/EU).
   - We also need a RPI compatible SATA to USB cable, see [Compatible cables here](https://jamesachambers.com/raspberry-pi-4-usb-boot-config-guide-for-ssd-flash-drives/), I chose: StarTech USB 3.0 to 2.5" SATA HDD/SDD Cable w/UASP (USB3S2SAT3CB).
 - Install first according to the [RPI installation notes](https://github.com/slittorin/raspberrypi-install).
   - The installation enables boot from SSD.
-- Add the SSD Disk with the cable to RPI, to a USB 3 port (blue).
+- Add the SSD disk with the cable to RPI, to a USB 3 port (blue).
 
 ## Installation
 
@@ -39,4 +39,4 @@
    ├─sda1   8:1    0   256M  0 part /boot
    └─sda2   8:2    0 465.5G  0 part /
    ```
-   - The SSD drive is now enabled and running on the RPI, with full disk enabled.
+   - The SSD disk is now enabled and running on the RPI, with full disk enabled.
