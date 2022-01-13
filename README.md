@@ -6,7 +6,7 @@
   - We also need a RPI compatible SATA to USB cable, see [Compatible cables here](https://jamesachambers.com/raspberry-pi-4-usb-boot-config-guide-for-ssd-flash-drives/), I chose: StarTech USB 3.0 to 2.5" SATA HDD/SDD Cable w/UASP (USB3S2SAT3CB).
 - Install first according to the [RPI installation notes](https://github.com/slittorin/raspberrypi-install).
   - The installation enables boot from SSD.
-- Add the SSD Disk with the cable RPI, to a USB 3 port (blue).
+- Add the SSD Disk with the cable to RPI, to a USB 3 port (blue).
 
 ## Installation
 
