@@ -28,7 +28,7 @@
    - Choose Copy to Device and the one that has `/dev/sda` (as found through lsblck above).
    - Press Start and agree to overwrite, wait for the application to finish.
 4. Shutdown RPI.
-5. Remove the micro-SD Card on the RPI (keep it preferably in the RPI but not fully inserted).
+5. Remove the micro-SD Card on the RPI (keep it preferably in the RPI but not fully inserted, or attached to the RPI).
 6. Start RPI.
    - If the RPI do not boot, well, then we need to find the problem.
 7. Logon and run the following command to verify `lsblk`, the output should read something like the following:
