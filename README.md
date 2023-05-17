@@ -3,7 +3,10 @@
 ## Prequisities
 - We want speed, stability and size compared to the built in micro-SD card, therefore we add an SSD disk to the RPI configuration.
   - We need first a suitable SSD disk, choose one that can carry load and lots of updates. I chose: Samsung 870 EVO 500GB (MZ-77E500B/EU).
-  - We also need a RPI compatible SATA to USB cable, see [Compatible cables here](https://jamesachambers.com/raspberry-pi-4-usb-boot-config-guide-for-ssd-flash-drives/), I chose: StarTech USB 3.0 to 2.5" SATA HDD/SDD Cable w/UASP (USB3S2SAT3CB).
+  - We also need a RPI compatible SATA to USB cable, see [Compatible cables here](https://jamesachambers.com/raspberry-pi-4-usb-boot-config-guide-for-ssd-flash-drives/).
+    - Update 20230517: Since I had intermittent problems with unstable HA.
+      - I at first usued the following cable StarTech USB 3.0 to 2.5" SATA HDD/SDD Cable w/UASP (USB3S2SAT3CB).
+      - But after experiencing unstable OS [forum entry](https://community.home-assistant.io/t/ha-has-become-unstable-the-past-weeks/570508), I switched to using a cable with separate power-supply [DeLOCK 61883 convertor adapter SATA 22-pin USB 3.0](https://www.amazon.co.uk/DeLOCK-61883-Converter-Adaptor-22-Pin/dp/B005OMXBN2), after this I got a stable hardware-setup.
 - Install first according to the [RPI installation notes](https://github.com/slittorin/raspberrypi-install).
   - The installation enables boot from SSD.
 - Add the SSD disk to RPI, to a USB 3 port (blue).
